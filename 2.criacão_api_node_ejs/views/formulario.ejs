@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de Inserção</title>
+  </head>
+  <body>
+    <h1>Cadastro de cliente</h1>
+    <form action="/submit" method="POST">
+      <label>Nome</label>
+      <input type="text" name="nome" required /><br /><br />
+
+      <label>Endereço</label>
+      <input type="text" name="endereco" required /><br /><br />
+
+      <label>Documento</label>
+      <input type="text" name="documento" maxlength="11" required /><br /><br />
+
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
