@@ -1,0 +1,8 @@
+npm install express
+npm install dotenv
+npm install nodemom
+npm install mongoose
+npm install mongodb
+
+No nosso caso, o Express é um framework que vamos 
+utilizar para nos auxiliar no gerenciamento de rotas e do servidor HTTP.
